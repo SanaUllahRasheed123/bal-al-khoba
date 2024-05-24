@@ -7,9 +7,9 @@ import voice from "../assets/images/voice-logo.svg";
 import search from "../assets/images/search-logo.svg";
 const Header = () => {
   return (
-    <div className="bg-[#f8fafc] border border-black p-4">
-      <div className="max-w-[1340px] border border-[blue] mx-auto grid grid-cols-3 pl-7">
-        <div className="text-white pt-4 col-span-1 border border-[yellow]">
+    <div className="bg-[#f8fafc] p-4">
+      <div className="max-w-[1340px] mx-auto grid grid-cols-3 pl-7">
+        <div className="text-white pt-4 col-span-1 ">
           <div className="flex">
             <img src={voice} alt="fdj" className="pl-4" />
             <input type="text" placeholder="Search" className="shadow p-5" />
@@ -20,7 +20,7 @@ const Header = () => {
         <div className="col-span-1 border- border-[pink] pl-17">
           <img src={logo} alt="fk" className="justify-center " />
         </div>
-        <div className="flex justify-center gap-7 items-center col-span-1 border border-[red]">
+        <div className="flex justify-center gap-7 items-center col-span-1">
           <div className="flex gap-3">
             <img src={profile} alt="fdk" />
 

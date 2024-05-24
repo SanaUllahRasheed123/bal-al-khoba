@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className="bg-[#CC9966] p-4">
       <div className="max-w-[1340px] mx-auto grid grid-cols-2">
-        <div className="col-span-1 border border-black  text-white pl-10 pt-8 py-6 ">
+        <div className="col-span-1  text-white pl-10 pt-8 py-6 ">
           <h3 className="text-[40px] text-[#003366] font-bold py-3">
             Bab Al Khokha
           </h3>
@@ -15,7 +15,7 @@ const Banner = () => {
             Shop Now
           </button>
         </div>
-        <div className="col-span-1 border border-black ">
+        <div className="col-span-1  ">
           <img src={newcollect} alt="kjkj" />
         </div>
       </div>
