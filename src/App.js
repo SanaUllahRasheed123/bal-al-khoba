@@ -5,6 +5,8 @@ import Collection from "./components/Collection";
 import Catagories from "./components/Catagories";
 import Features from "./components/Features";
 import NewCollections from "./components/NewCollections";
+import Shelter from "./components/Shelter";
+import FooterLinks from "./components/FooterLinks";
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
       <Catagories />
       <Features />
       <NewCollections />
+      <Shelter />
+      <FooterLinks />
     </div>
   );
 };
