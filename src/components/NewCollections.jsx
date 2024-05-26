@@ -10,7 +10,7 @@ const Features = () => {
       <div className="flex justify-between py-8">
         <h1 className="text-[#CC9966] text-5xl font-bold">New Collections</h1>
       </div>
-      <div className="max-w-[1320px] py-4 mx-auto grid grid-cols-4 gap-5  border border-black shadow-lg">
+      <div className="max-w-[1320px] py-4 mx-auto grid grid-cols-4 gap-5  shadow-lg">
         <div className="grid-col-1 overflow-hidden">
           <img src={collect1} alt="fjdkj" />
           <h2 className="pt-10">Man Glasses</h2>

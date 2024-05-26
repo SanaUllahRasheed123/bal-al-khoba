@@ -12,7 +12,7 @@ const Features = () => {
           Features of Our Store
         </h1>
       </div>
-      <div className="max-w-[1240px] py-4 mx-auto grid grid-cols-4 gap-5 p-4  border border-black">
+      <div className="max-w-[1240px] py-4 mx-auto grid grid-cols-4 gap-5 p-4  ">
         <div className="grid-col-1 ">
           <img src={feature1} alt="fjdkj" />
           <h4>Augmented Reality (AR) Product Visualization</h4>

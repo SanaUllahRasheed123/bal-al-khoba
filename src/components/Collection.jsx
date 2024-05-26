@@ -45,7 +45,7 @@ const Collection = () => {
     <div className="max-w-[1240px] mx-auto grid grid-cols-2 gap-5 py-3">
       <div
         style={{ backgroundImage: `url(${bgcollect})` }} // Set the background image inline
-        className=" flex flex-col  text-black border border-[red]
+        className=" flex flex-col  text-black   
         bg-cover bg-center p-8  grid-col-1 justify-between h-[350px] "
       >
         <img
@@ -64,7 +64,7 @@ const Collection = () => {
       </div>
       <div
         style={{ backgroundImage: `url(${bgcollect})` }} // Set the background image inline
-        className=" flex flex-col  text-black border border-[red]
+        className=" flex flex-col  text-black 
         bg-cover bg-center p-8  grid-col-1 justify-between h-[350px] "
       >
         <img

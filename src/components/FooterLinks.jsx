@@ -8,8 +8,8 @@ import tiktok from "../assets/images/tiktok.svg";
 const FooterLinks = () => {
   return (
     <>
-      <div className="bg-[#556B2F] py-10 p-4">
-        <div className="max-w-[1440px] mx-auto  grid grid-cols-4 gap-8">
+      <div className="bg-[#CC9966] py-10 p-4">
+        <div className="max-w-[1440px] mx-auto  grid grid-cols-4 gap-2">
           <div className="grid-col-1  text-white">
             <h1 className="text-[30px] pb-5">About</h1>
             <p className="pb-4">
@@ -18,12 +18,12 @@ const FooterLinks = () => {
               enim ad minim veniam,
             </p>
             <h1 className="text-[30px] pb-4">Follow Us</h1>
-            <div className="flex gap-2 cursor-pointer justify-between">
+            <div className="flex gap-2 cursor-pointer justify-between text-[#CC9966]">
               <img src={fb} alt="kdfj" />
               <img src={insta} alt="kdfj" />
               <img src={pin} alt="kdfj" />
-              <img src={tiktok} alt="kdfj" />
-              <img src={linked} alt="kdfj" />
+              <img src={tiktok} alt="kdfj" className="text-[#CC9966]" />
+              <img src={linked} alt="kdfj" className="text-[#CC9966]" />
             </div>
           </div>
           <div className="grid-col-1  text-white ">
@@ -56,6 +56,10 @@ const FooterLinks = () => {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="w-max-[1240px] p-3  flex justify-between">
+        <h3>Copyright © 2024 - Bab Al Khokha All right reserved</h3>
+        <h3>Designed & Developed by SMB Digital Zone</h3>
       </div>
     </>
   );
